@@ -153,4 +153,9 @@ export default {
     display: none;
   }
 }
+@media screen and (min-width: 1920px) {
+  .navbar {
+    display: none;
+  }
+}
 </style>
