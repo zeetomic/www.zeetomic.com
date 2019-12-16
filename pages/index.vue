@@ -50,10 +50,10 @@
     <div class="section3">
       <v-carousel 
         hide-delimiters 
-        cycle
+        class="desktop_carousel"
       >
         <v-carousel-item>
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-row style="height: 100%">
               <v-col class="d-flex justify-center align-center">
                 <img class="step1_img" src="../assets/step-1.png" alt="step-1">
@@ -69,7 +69,7 @@
           </v-card>
         </v-carousel-item>
         <v-carousel-item>
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-row style="height: 100%">
               <v-col class="d-flex justify-center align-center">
                 <img class="step1_img" src="../assets/step-1.png" alt="step-1">
@@ -85,7 +85,7 @@
           </v-card>
         </v-carousel-item>
         <v-carousel-item>
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-row style="height: 100%">
               <v-col class="d-flex justify-center align-center">
                 <img class="step1_img" src="../assets/step-1.png" alt="step-1">
@@ -101,7 +101,7 @@
           </v-card>
         </v-carousel-item>
         <v-carousel-item>
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-row style="height: 100%">
               <v-col class="d-flex justify-center align-center">
                 <img class="step1_img" src="../assets/step-1.png" alt="step-1">
@@ -110,6 +110,76 @@
                 <div class="carousel_detail">
                   <div class="font-weight-bold text-center semi-bold" style="color:#485865">Exchange</div>
                   <div style="padding-top:2rem"></div>               
+                  <div class="text-center font-weight-regular regular" style="color:#444444">From the trading account, token are exchangeable with trusted parties.</div>                
+                </div>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-carousel-item>
+      </v-carousel>
+      <v-carousel 
+        hide-delimiters 
+        height="350"
+        class="mobile_carousel"
+      >
+        <v-carousel-item>
+          <v-card outlined height="100%">
+            <v-row style="height: 100%">
+              <v-col class="d-flex justify-center align-center">
+                <img class="step1_img" src="../assets/step-1.png" alt="step-1">
+              </v-col>
+              <v-col class="mx-auto" align-self="center">
+                <div class="carousel_detail">
+                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">How it work ?</div>
+                  <div style="padding-top:1rem"></div>
+                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer identifies themselves vai require documents. </div>
+                </div>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-carousel-item>
+        <v-carousel-item>
+          <v-card outlined height="100%">
+            <v-row style="height: 100%">
+              <v-col class="d-flex justify-center align-center">
+                <img class="step1_img" src="../assets/step-1.png" alt="step-1">
+              </v-col>
+              <v-col class="mx-auto" align-self="center">
+                <div class="carousel_detail">
+                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Integrate with existing POS</div>
+                  <div style="padding-top:1rem"></div>
+                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer pays into items through your existing POS. </div>
+                </div>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-carousel-item>
+        <v-carousel-item>
+          <v-card outlined height="100%">
+            <v-row style="height: 100%">
+              <v-col class="d-flex justify-center align-center">
+                <img class="step1_img" src="../assets/step-1.png" alt="step-1">
+              </v-col>
+              <v-col class="mx-auto" align-self="center">
+                <div class="carousel_detail">
+                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Reward Customer autonomously</div>
+                  <div style="padding-top:1rem"></div>
+                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer received the reward automatically into their account.</div>
+                </div>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-carousel-item>
+        <v-carousel-item>
+          <v-card outlined height="100%">
+            <v-row style="height: 100%">
+              <v-col class="d-flex justify-center align-center">
+                <img class="step1_img" src="../assets/step-1.png" alt="step-1">
+              </v-col>
+              <v-col class="mx-auto" align-self="center">
+                <div class="carousel_detail">
+                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Exchange</div>
+                  <div style="padding-top:1rem"></div>               
                   <div class="text-center font-weight-regular regular" style="color:#444444">From the trading account, token are exchangeable with trusted parties.</div>                
                 </div>
               </v-col>
@@ -211,13 +281,15 @@ export default {
 }
 .section3 .v-card {
   background-image: url('../assets/bg-cont.jpg');
-  height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.carousel {
+  padding: 5rem 7rem;
 }
 .step1_img{
   width: 400px;
@@ -243,18 +315,40 @@ export default {
   .network_nest {
     padding: 5rem 2rem;
   }
+  .carousel {
+    padding: 0rem 3rem;
+  }
+  .step1_img{
+    width: 150px!important;
+  }
+  .desktop_carousel {
+    display: none;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 920px) {
   .network_nest {
     padding: 5rem;
+  }
+  .mobile_carousel {
+    display: none;
   }
 }
 @media screen and (min-width: 921px) and (max-width: 1264px) {
   .network_nest {
     padding: 5rem;
   }
+   .mobile_carousel {
+    display: none;
+  }
 }
 @media screen and (min-width: 1265px) and (max-width: 1904px) {
-  
+  .mobile_carousel {
+    display: none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .mobile_carousel {
+    display: none;
+  }
 }
 </style>

@@ -27,11 +27,9 @@ export default {
   }
   @media screen and (max-width: 600px) {
     .section1 {
-      padding: 1rem 5rem!important;
+      padding: 1rem 3rem!important;
     }
-    .step1_img{
-      width: 250px!important;
-    }
+    
     .semi-bold {
       font-size: 24px!important;
     }

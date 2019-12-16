@@ -2,7 +2,7 @@
   <div>
     <div class="main">
       <Header />
-      <div style="padding: 5rem 18%">
+      <div style="padding: 5rem 12%">
         <v-row>
           <v-col cols="12" xs="12" sm="12" md="" lg="" xl="">
             <p class="font-weight-bold grey--text semi-bold">ABOUT</p>
