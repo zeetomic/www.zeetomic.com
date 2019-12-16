@@ -50,6 +50,7 @@
     <div class="section3">
       <v-carousel 
         hide-delimiters 
+        cycle
         class="desktop_carousel"
       >
         <v-carousel-item>
@@ -118,7 +119,8 @@
         </v-carousel-item>
       </v-carousel>
       <v-carousel 
-        hide-delimiters 
+        hide-delimiters
+        cycle
         height="350"
         class="mobile_carousel"
       >
