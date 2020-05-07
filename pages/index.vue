@@ -1,11 +1,11 @@
 <template>
-  <div class="">
+  <div>
     <div class="main">
       <Header />
       <div class="section1">
         <v-row>
           <v-col cols="12" xs="10" sm="11" md="10" lg="6" xl="6">
-            <p class="font-weight-bold white--text semi-bold">The Platform for the Issuance and Management of Digital Asset</p>
+            <p class="font-weight-bold white--text semi-bold" style="line-height: 50px">The Platform for the Issuance and Management of Digital Asset</p>
           </v-col>
         </v-row>
         <v-row>
@@ -22,28 +22,34 @@
       <p class="font-weight-bold text-center semi-bold">Recently Projects</p>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <div data-aos="fade-right" data-aos-duration="1000">
           <v-card class="d-flex justify-center" elevation="6">
             <img src="../assets/1.svg" alt="vitamin-air">
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">Blockchain as a Customer Loyalty solution</p>
           <p class="text-center">Customer loyalty programs allow companies to reward customers who make purchases frequently or on a specified period.</p>
+          </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <div data-aos="zoom-out" data-aos-duration="1000">
           <v-card class="d-flex justify-center" elevation="6">
             <img src="../assets/2.svg" alt="vitamin-air">
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">Crowdfunding And Vested</p>
           <p class="text-center">Our Platform enables any startup to create an asset and accept crowdfunding secured by the Zeetomic custodian account.</p>
+          </div>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <div data-aos="fade-left" data-aos-duration="1000">
           <v-card class="d-flex justify-center" elevation="6">
             <img src="../assets/3.svg" alt="vitamin-air">
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">API for Payment Solutions</p>
           <p class="text-center">With our robust API developers can access payment ecosystems for a more dynamic transition of value.</p>
+          </div>
         </v-col>
       </v-row>
     </div>
@@ -191,13 +197,13 @@
       </v-carousel>
     </div>
     <div class="network_nest">
-      <v-row>
+      <v-row data-aos="fade-right" data-aos-duration="3000">
         <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" style="text-align: end">
           <p class="font-weight-bold semi-bold" style="color:#485865">Mission</p>
           <p class="font-weight-regular regular" style="color:#444444">Fast, simple and cost reduction for security/utility token issuing platform.</p>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row data-aos="fade-left" data-aos-duration="3000">
         <v-col></v-col>
         <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
           <p class="font-weight-bold semi-bold" style="color:#485865">Vision</p>

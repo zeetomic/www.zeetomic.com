@@ -18,13 +18,13 @@
       </div>
     </div>
     <div class="network_nest">
-      <v-row>
+      <v-row data-aos="fade-right" data-aos-duration="3000"> 
         <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" style="text-align: end">
           <p class="font-weight-bold semi-bold" style="color:#485865">Mission</p>
           <p class="font-weight-regular" style="font-size:18px; color:#444444">Fast, simple and cost reduction for security/utility token issuing platform.</p>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row data-aos="fade-left" data-aos-duration="3000">
         <v-col></v-col>
         <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
           <p class="font-weight-bold semi-bold" style="color:#485865">Vision</p>

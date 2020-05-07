@@ -33,6 +33,18 @@
         </li>
         <v-divider dark></v-divider>
         <li>
+          <v-btn text color="transperant" nuxt to="/privacy">
+            <span class="white--text">Privacy & Policy</span>
+          </v-btn>
+        </li>
+        <v-divider dark></v-divider>
+        <li>
+          <v-btn text color="transperant" nuxt to="/termofuse">
+            <span class="white--text">Term Of Use</span>
+          </v-btn>
+        </li>
+        <v-divider dark></v-divider>
+        <li>
           <v-btn text color="transperant" nuxt to="/blog">
             <span class="white--text">Blog</span>
           </v-btn>
