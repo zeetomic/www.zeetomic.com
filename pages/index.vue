@@ -240,7 +240,6 @@
         </v-col>
       </v-row>
     </div> -->
-    <Footer />
   </div> 
 </template>
 
@@ -264,13 +263,14 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
 }
 .zee-landing {
   width: 100%;
   position: absolute;
 }
 .section1 {
-  padding: 10% 17%;
+  padding: 10% 12%;
 }
 .section2 {
   padding: 5% 17%;
@@ -320,6 +320,9 @@ export default {
   padding: 5rem 20rem;
 }
 @media screen and (max-width: 600px) {
+  .main {
+    height: auto;
+  }
   .network_nest {
     padding: 5rem 2rem;
   }
@@ -334,6 +337,9 @@ export default {
   }
 }
 @media screen and (min-width: 601px) and (max-width: 920px) {
+  .main {
+    height: auto;
+  }
   .network_nest {
     padding: 5rem;
   }

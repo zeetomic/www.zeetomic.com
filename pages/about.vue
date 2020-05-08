@@ -123,7 +123,6 @@
         </v-col>
       </v-row>
     </div>
-    <Footer />
   </div>
 </template>
 

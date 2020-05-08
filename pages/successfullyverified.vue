@@ -13,14 +13,13 @@
                 <p class="text-center font-weight-bold regular">User Successfully Activated</p>
                 <p class="text-center">Congratulations your user successfully activated. Please login to perform other operations.</p>
                 <v-row justify="center">
-                  <v-btn color="#00b5ad" href="https://app.zeetomic.com/login">Go To The Platform</v-btn>
+                  <v-btn color="#00b5ad" href="https://wallet.zeetomic.com/login">Go To The Platform</v-btn>
                 </v-row>
               </v-card>
             </v-row>
           </v-col>
         </v-row>
       </div>
-      <Footer/>
     </div>
   </div>
 </template>

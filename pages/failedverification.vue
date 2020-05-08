@@ -20,7 +20,6 @@
           </v-col>
         </v-row>
       </div>
-      <Footer/>
     </div>
   </div>
 </template>
