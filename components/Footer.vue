@@ -3,7 +3,7 @@
     <div class="desktop">
       <div class="pa-6">
         <v-row>
-          <img class="zee_footer pa-4" src="../assets/zeetomic-logo-footer.png" alt="zee_footer">
+          <!-- <img class="zee_footer pa-4" src="../assets/zeetomic-logo-footer.png" alt="zee_footer"> -->
         </v-row>
         <v-row>
           <v-col>
