@@ -20,29 +20,31 @@
               <v-btn text to="/termofuse"><span class="font-weight-bold">Term of use</span></v-btn>
             </div>
           </v-col>
+          <v-col>
+            <p class="font-weight-bold title">Connect With Us</p>
+            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://www.facebook.com/zeetomic" target="blank">
+              <v-icon>mdi-facebook</v-icon>Facebook
+            </v-btn>
+            <br>
+            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://t.me/zeetomic" target="blank">
+              <v-icon>mdi-telegram</v-icon>Telegram
+            </v-btn>
+            <br>
+            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://www.linkedin.com/company/zeetomic" target="blank">
+              <v-icon>mdi-linkedin</v-icon>Linkedin
+            </v-btn>
+            <br>
+            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://medium.com/zeetomic" target="blank">
+              <img src="~/assets/medium.svg" style="width: 20px">Medium
+            </v-btn>
+          </v-col>
         </v-row>
       </div>
       <v-row class="copyright">
-        <v-row>
-          <v-col class="d-flex align-end">
-            <p class="px-6">Copyright © 2018 Zeetomic. All right reserved.
-            A brainchild of SmallWorld Venture</p>
-          </v-col>
-          <v-col class=" d-flex align-center justify-end px-6">
-            <v-btn class="ma-2" outlined small fab color="blue-grey darken-2" href="https://www.facebook.com/zeetomic" target="blank">
-              <v-icon>mdi-facebook</v-icon>
-            </v-btn>
-            <v-btn class="ma-2" outlined small fab color="blue-grey darken-2" href="https://t.me/zeetomic" target="blank">
-              <v-icon>mdi-telegram</v-icon>
-            </v-btn>
-            <v-btn class="ma-2" outlined small fab color="blue-grey darken-2" href="https://www.linkedin.com/company/zeetomic" target="blank">
-              <v-icon>mdi-linkedin</v-icon>
-            </v-btn>
-            <v-btn class="ma-2" outlined small fab color="blue-grey darken-2" href="https://medium.com/zeetomic" target="blank">
-              <img src="~/assets/medium.svg" style="width: 20px">
-            </v-btn>
-          </v-col>
-        </v-row>
+        <v-col class="d-flex align-end">
+          <span class="">Copyright © 2018 Zeetomic. All right reserved.
+          A brainchild of SmallWorld Venture</span>
+        </v-col>
       </v-row>
     </div>
   <!-- Mobile -->
