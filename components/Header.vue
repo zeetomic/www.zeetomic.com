@@ -54,8 +54,8 @@
       <v-btn text large class="white--text font-weight-bold" nuxt to="/about">About</v-btn>
       <v-btn text large class="white--text font-weight-bold" nuxt to="/blog">Blog</v-btn>
       <v-spacer></v-spacer>
-      <v-btn text large class="white--text font-weight-bold" href="https://web-wallet.now.sh/login">Log In</v-btn>
-      <v-btn outlined class="white--text font-weight-bold" href="https://web-wallet.now.sh/signup">Sign Up</v-btn>
+      <v-btn text large class="white--text font-weight-bold" href="https://wallet.zeetomic.com/login">Log In</v-btn>
+      <v-btn outlined class="white--text font-weight-bold" href="https://wallet.zeetomic.com/login">Sign Up</v-btn>
     </v-app-bar>
     <!-- Mobile -->
     <div class="sidebar_bg" @click="CloseBurger()" :class="{'showBG':showNavbar}"></div>
