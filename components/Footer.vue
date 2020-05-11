@@ -7,39 +7,39 @@
         </v-row>
         <v-row>
           <v-col>
-            <p class="font-weight-bold title">Company</p>
-            <v-btn text to="/about"><span class="font-weight-thin">About Zeetomic</span></v-btn>
+            <p class="font-weight-medium title text-uppercase">Company</p>
+            <v-btn text to="/about"><span class="font-weight-thin text-capitalize">About Zeetomic</span></v-btn>
             <div>
-              <v-btn text to="/privacy"><span class="font-weight-thin">Privacy & Policy</span></v-btn>
+              <v-btn text to="/privacy"><span class="font-weight-thin text-capitalize">Privacy & Policy</span></v-btn>
             </div>
             <div>
-              <v-btn text to="/termofuse"><span class="font-weight-thin">Term of use</span></v-btn>
-            </div>
-          </v-col>
-          <v-col class="d-flex justify-center">
-            <div>
-              <p class="font-weight-bold title">Solutions</p>
-              <v-btn text><span class="font-weight-thin">Customer Loyalty</span></v-btn>
-              <div>
-                <v-btn text><span class="font-weight-thin">Crowdfunding And Vested</span></v-btn>
-              </div>
-              <div>
-                <v-btn text><span class="font-weight-thin">API for Payment Solutions</span></v-btn>
-              </div>
+              <v-btn text to="/termofuse"><span class="font-weight-thin text-capitalize">Term of use</span></v-btn>
             </div>
           </v-col>
           <v-col class="d-flex justify-center">
             <div>
-              <p class="font-weight-bold title">Developers</p>
-              <v-btn text href="https://docs.zeetomic.com/" target="blank"><span class="font-weight-thin">Documentation</span></v-btn>
+              <p class="font-weight-medium title text-uppercase">Solutions</p>
+              <v-btn text><span class="font-weight-thin text-capitalize">Customer Loyalty</span></v-btn>
               <div>
-                <v-btn text href="https://github.com/zeetomic/" target="blank"><span class="font-weight-thin">GitHub</span></v-btn>
+                <v-btn text><span class="font-weight-thin text-capitalize">Crowdfunding And Vested</span></v-btn>
+              </div>
+              <div>
+                <v-btn text><span class="font-weight-thin text-capitalize">API for Payment Solutions</span></v-btn>
+              </div>
+            </div>
+          </v-col>
+          <v-col class="d-flex justify-center">
+            <div>
+              <p class="font-weight-medium title text-uppercase">Developers</p>
+              <v-btn text href="https://docs.zeetomic.com/" target="blank"><span class="font-weight-thin text-capitalize">Documentation</span></v-btn>
+              <div>
+                <v-btn text href="https://github.com/zeetomic/" target="blank"><span class="font-weight-thin text-capitalize">GitHub</span></v-btn>
               </div>
             </div>
           </v-col>
           <v-col class="d-flex justify-end">
             <div>
-              <p class="font-weight-bold title">Connect With Us</p>
+              <p class="font-weight-medium title text-uppercase">Connect With Us</p>
               <v-btn class="ma-2" min-width="60px" outlined color="blue-grey darken-2" href="https://www.facebook.com/zeetomic" target="blank">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
