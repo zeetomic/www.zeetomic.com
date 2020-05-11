@@ -1,17 +1,13 @@
 <template>
   <div class="footer">
     <div class="desktop">
-      <div class="pa-6">
+      <div class="pa-6 my-container">
         <v-row>
           <!-- <img class="zee_footer pa-4" src="../assets/zeetomic-logo-footer.png" alt="zee_footer"> -->
         </v-row>
         <v-row>
           <v-col>
-            <p class="font-weight-bold title">Contact US</p>
-            <p class="font-weight-bold">info@zeetomic.com</p>
-          </v-col>
-          <v-col>
-            <p class="font-weight-bold title">Information</p>
+            <p class="font-weight-bold title">Company</p>
             <v-btn text to="/about"><span class="font-weight-bold">About Zeetomic</span></v-btn>
             <div>
               <v-btn text to="/privacy"><span class="font-weight-bold">Privacy & Policy</span></v-btn>
@@ -20,33 +16,55 @@
               <v-btn text to="/termofuse"><span class="font-weight-bold">Term of use</span></v-btn>
             </div>
           </v-col>
-          <v-col>
-            <p class="font-weight-bold title">Connect With Us</p>
-            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://www.facebook.com/zeetomic" target="blank">
-              <v-icon>mdi-facebook</v-icon>Facebook
-            </v-btn>
-            <br>
-            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://t.me/zeetomic" target="blank">
-              <v-icon>mdi-telegram</v-icon>Telegram
-            </v-btn>
-            <br>
-            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://www.linkedin.com/company/zeetomic" target="blank">
-              <v-icon>mdi-linkedin</v-icon>Linkedin
-            </v-btn>
-            <br>
-            <v-btn class="ma-2" min-width="160px" outlined color="blue-grey darken-2" href="https://medium.com/zeetomic" target="blank">
-              <img src="~/assets/medium.svg" style="width: 20px">Medium
-            </v-btn>
+          <v-col class="d-flex justify-center">
+            <div>
+              <p class="font-weight-bold title">Solutions</p>
+              <v-btn text><span class="font-weight-bold">Customer Loyalty</span></v-btn>
+              <div>
+                <v-btn text><span class="font-weight-bold">Crowdfunding And Vested</span></v-btn>
+              </div>
+              <div>
+                <v-btn text><span class="font-weight-bold">API for Payment Solutions</span></v-btn>
+              </div>
+            </div>
+          </v-col>
+          <v-col class="d-flex justify-center">
+            <div>
+              <p class="font-weight-bold title">Developers</p>
+              <v-btn text to=""><span class="font-weight-bold">Documentation</span></v-btn>
+              <div>
+                <v-btn text to=""><span class="font-weight-bold">GitHub</span></v-btn>
+              </div>
+            </div>
+          </v-col>
+          <v-col class="d-flex justify-end">
+            <div>
+              <p class="font-weight-bold title">Connect With Us</p>
+              <v-btn class="ma-2" min-width="60px" outlined color="blue-grey darken-2" href="https://www.facebook.com/zeetomic" target="blank">
+                <v-icon>mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn class="ma-2" min-width="60px" outlined color="blue-grey darken-2" href="https://t.me/zeetomic" target="blank">
+                <v-icon>mdi-telegram</v-icon>
+              </v-btn>
+              <br>
+              <v-btn class="ma-2" min-width="60px" outlined color="blue-grey darken-2" href="https://www.linkedin.com/company/zeetomic" target="blank">
+                <v-icon>mdi-linkedin</v-icon>
+              </v-btn>
+              <v-btn class="ma-2" min-width="60px" outlined color="blue-grey darken-2" href="https://medium.com/zeetomic" target="blank">
+                <img src="~/assets/medium.svg" style="width: 20px">
+              </v-btn>
+              <br>
+            </div>
           </v-col>
         </v-row>
       </div>
-      <v-row class="copyright">
-        <v-col class="d-flex align-end">
-          <span class="">Copyright © 2018 Zeetomic. All right reserved.
+      <div class="copyright pa-2">
+        <span>Copyright © 2018 Zeetomic. All right reserved.
           A brainchild of SmallWorld Venture</span>
-        </v-col>
-      </v-row>
+      </div>
     </div>
+
+
   <!-- Mobile -->
     <div class="mobile footer-mobile">
       <div class="d-flex justify-center align-center" style="padding: 2rem 0">
@@ -82,6 +100,9 @@ export default {
 </script>
 
 <style scoped>
+.v-btn {
+  padding: 1rem 0!important;
+}
 .footer {
   background: #ece7e7!important;
 }
@@ -91,7 +112,9 @@ export default {
 .copyright {
   background: #cfcaca;
 }
-
+.my-container {
+  padding: 1.6rem 10rem!important;
+}
 @media only screen and (max-width: 500px) {
   .desktop {
     display: none;

@@ -5,7 +5,7 @@
       <div style="padding: 5rem 12%">
         <v-row>
           <v-col cols="12" xs="12" sm="12" md="" lg="" xl="">
-            <p class="font-weight-bold grey--text semi-bold">Privacy policy</p>
+            <p class="font-weight-bold grey--text semi-bold">Privacy Policy</p>
             <span class="grey--text">LAST UPDATE: MAY 06, 2020</span>
             <p class="grey--text">This privacy policy aims to give information on how ZEETOMIC collects and processes your personal data when you use the Zeetomic Wallet and related services (Services) or use the ZEETOMIC Wallet website (www.zeetomic.com). Our website and Services are not intended for children and we do not knowingly collect data relating to children.</p>
             <p class="grey--text">Except as provided in this policy, we will not provide your personal information to third parties and, for the avoidance of doubt, we will only use and store your personal information in the circumstances described in this policy.</p>
