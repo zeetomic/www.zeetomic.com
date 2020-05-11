@@ -13,7 +13,7 @@
             <p class="white--text font-weight-regular">We provide trusted global solutions for creating a digital asset. Customer Loyalty | Real Estate | Vested Shares | Payment Solution</p>
           </v-col>
         </v-row>
-      <v-btn outlined large color="white" href="https://github.com/zeetomic/mobile/releases/download/0.2.test/zee_test_v0_2.apk">
+      <v-btn large color="primary" href="https://github.com/zeetomic/mobile/releases/download/0.2.test/zee_test_v0_2.apk">
         <v-icon>mdi-android</v-icon> Get the android APK
       </v-btn>
       </div>
