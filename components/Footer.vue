@@ -8,32 +8,32 @@
         <v-row>
           <v-col>
             <p class="font-weight-bold title">Company</p>
-            <v-btn text to="/about"><span class="font-weight-bold">About Zeetomic</span></v-btn>
+            <v-btn text to="/about"><span class="font-weight-thin">About Zeetomic</span></v-btn>
             <div>
-              <v-btn text to="/privacy"><span class="font-weight-bold">Privacy & Policy</span></v-btn>
+              <v-btn text to="/privacy"><span class="font-weight-thin">Privacy & Policy</span></v-btn>
             </div>
             <div>
-              <v-btn text to="/termofuse"><span class="font-weight-bold">Term of use</span></v-btn>
+              <v-btn text to="/termofuse"><span class="font-weight-thin">Term of use</span></v-btn>
             </div>
           </v-col>
           <v-col class="d-flex justify-center">
             <div>
               <p class="font-weight-bold title">Solutions</p>
-              <v-btn text><span class="font-weight-bold">Customer Loyalty</span></v-btn>
+              <v-btn text><span class="font-weight-thin">Customer Loyalty</span></v-btn>
               <div>
-                <v-btn text><span class="font-weight-bold">Crowdfunding And Vested</span></v-btn>
+                <v-btn text><span class="font-weight-thin">Crowdfunding And Vested</span></v-btn>
               </div>
               <div>
-                <v-btn text><span class="font-weight-bold">API for Payment Solutions</span></v-btn>
+                <v-btn text><span class="font-weight-thin">API for Payment Solutions</span></v-btn>
               </div>
             </div>
           </v-col>
           <v-col class="d-flex justify-center">
             <div>
               <p class="font-weight-bold title">Developers</p>
-              <v-btn text to=""><span class="font-weight-bold">Documentation</span></v-btn>
+              <v-btn text href="https://docs.zeetomic.com/" target="blank"><span class="font-weight-thin">Documentation</span></v-btn>
               <div>
-                <v-btn text to=""><span class="font-weight-bold">GitHub</span></v-btn>
+                <v-btn text href="https://github.com/zeetomic/" target="blank"><span class="font-weight-thin">GitHub</span></v-btn>
               </div>
             </div>
           </v-col>
@@ -58,7 +58,7 @@
           </v-col>
         </v-row>
       </div>
-      <div class="copyright pa-2">
+      <div class="copyright py-2">
         <span>Copyright © 2018 Zeetomic. All right reserved.
           A brainchild of SmallWorld Venture</span>
       </div>
@@ -111,9 +111,10 @@ export default {
 }
 .copyright {
   background: #cfcaca;
+  text-align:center;
 }
 .my-container {
-  padding: 1.6rem 10rem!important;
+  padding: 0 10rem!important;
 }
 @media only screen and (max-width: 500px) {
   .desktop {

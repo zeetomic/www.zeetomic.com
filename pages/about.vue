@@ -156,10 +156,10 @@ export default {
   -o-background-size: cover;
   background-size: auto;
 
-  padding: 5rem 20rem;
+  padding: 5rem 12rem;
 }
 .our_team {
-  padding: 2.5rem 20rem;
+  padding: 2.5rem 12rem;
 
   background-image: url('../assets/bg-contt.jpg');
   background-repeat: no-repeat;

@@ -23,8 +23,10 @@
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
           <div data-aos="fade-right" data-aos-duration="1000">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/1.svg" alt="vitamin-air">
+          <v-card elevation="6">
+            <v-row class="d-flex justify-center">
+              <img src="../assets/1.svg" alt="vitamin-air">
+            </v-row>
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">Blockchain as a Customer Loyalty solution</p>
@@ -33,8 +35,10 @@
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
           <div data-aos="zoom-out" data-aos-duration="1000">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/2.svg" alt="vitamin-air">
+          <v-card elevation="6">
+            <v-row class="d-flex justify-center">
+              <img src="../assets/2.svg" alt="vitamin-air">
+            </v-row>
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">Crowdfunding And Vested</p>
@@ -43,8 +47,10 @@
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
           <div data-aos="fade-left" data-aos-duration="1000">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/3.svg" alt="vitamin-air">
+          <v-card elevation="6">
+            <v-row class="d-flex justify-center">
+              <img src="../assets/3.svg" alt="vitamin-air">
+            </v-row>
           </v-card>
           <div style="padding-top:2rem"></div>
           <p class="font-weight-bold text-center" style="font-size: 20px">API for Payment Solutions</p>
@@ -202,6 +208,7 @@
           <p class="font-weight-bold semi-bold" style="color:#485865">Mission</p>
           <p class="font-weight-regular regular" style="color:#444444">Fast, simple and cost reduction for security/utility token issuing platform.</p>
         </v-col>
+        <v-col></v-col>
       </v-row>
       <v-row data-aos="fade-left" data-aos-duration="3000">
         <v-col></v-col>
@@ -211,35 +218,6 @@
         </v-col>
       </v-row>
     </div>
-    <!-- <div class="section4">
-      <p class="font-weight-bold text-center semi-bold">Recently Updates</p>
-      <v-row>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/city.jpg" alt="vitamin-air">
-          </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">Community Incentivise Platform Base on Smart Contract</p>
-          <p class="text-center">Zeeva ultivmate goal is to makes the network more decentralized, efficient, equalized, robust and secure, thus enabling healthier,safer, and more open internet for community.</p>
-        </v-col>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/city-1.jpg" alt="vitamin-air">
-          </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">Decentralized Internet Sharing</p>
-          <p class="text-center">Zeeva ultivmate goal is to makes the network more decentralized, efficient, equalized, robust and secure, thus enabling healthier,safer, and more open internet for community.</p>
-        </v-col>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <v-card class="d-flex justify-center" elevation="6">
-            <img src="../assets/city-2.jpg" alt="vitamin-air">
-          </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">ISO Listing and Trading</p>
-          <p class="text-center">Zeeva ultivmate goal is to makes the network more decentralized, efficient, equalized, robust and secure, thus enabling healthier,safer, and more open internet for community.</p>
-        </v-col>
-      </v-row>
-    </div> -->
   </div> 
 </template>
 
@@ -273,7 +251,7 @@ export default {
   padding: 10% 12%;
 }
 .section2 {
-  padding: 5% 17%;
+  padding: 2% 12%;
 }
 .section2 img{
   width: 300px
@@ -317,7 +295,7 @@ export default {
   -o-background-size: cover;
   background-size: auto;
 
-  padding: 5rem 20rem;
+  padding: 5rem 12rem;
 }
 @media screen and (max-width: 600px) {
   .main {

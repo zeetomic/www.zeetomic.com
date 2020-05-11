@@ -9,7 +9,7 @@
         <img class="zee-header" src="../assets/zeetomic-logo-header.png" alt="zee_header">
       </v-btn>
       <v-spacer></v-spacer>
-      <!-- <v-menu
+      <v-menu
         v-model="menu"
         :close-on-content-click="false"
         :nudge-width="200"
@@ -34,23 +34,25 @@
               <div class="pl-2">
                 <p class="font-weight-bold">For Everyone</p>
                 <div class="pt-2"></div>
-                <img src="~/assets/z-logo-copy.png" style="width: 30px" class="pr-2 "/>
-                <span style="text-align: center">Zeetomic Wallet</span>
+                <v-btn text href="https://wallet.zeetomic.com/" target="blank">
+                  <img src="~/assets/z-logo-copy.png" style="width: 30px" class="pr-2"/>
+                  <span>Zeetomic Wallet</span>
+                </v-btn>
                 <br>
-                <span class="grey--text caption">Store your own digital asset</span>
+                <span class="grey--text caption pl-4">Store your own digital asset</span>
               </div>
             </v-col>
             <v-col>
               <p class="font-weight-bold">For Businesses</p>
-              <div class="pt-2"></div>
-              <span>Commerce</span>
-              <br><span class="grey--text caption">Customer loyalty</span>
-              <br><span class="grey--text caption">Vested shares</span>
-              <br><span class="grey--text caption">Payment</span>
+              <div class="pl-4 pt-2">
+                <span class="grey--text caption">Customer loyalty</span>
+                <br><span class="grey--text caption">Vested shares</span>
+                <br><span class="grey--text caption">Payment</span>
+              </div>
             </v-col>
           </v-row>
         </v-card>
-      </v-menu> -->
+      </v-menu>
       <v-btn text large class="white--text font-weight-bold" nuxt to="/about">About</v-btn>
       <v-btn text large class="white--text font-weight-bold" nuxt to="/blog">Blog</v-btn>
       <v-spacer></v-spacer>
@@ -126,7 +128,9 @@ export default {
   data() {
     return {
       showNavbar: false,
-      showlink: false
+      showlink: false,
+      
+      menu: false
     };
   },
   methods: {
@@ -152,7 +156,7 @@ export default {
   width: 170px;
 }
 .header {
-  padding: 0 17%;
+  padding: 0 10%;
   padding-top: 1%; 
 }
 .navbar {
