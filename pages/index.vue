@@ -19,50 +19,57 @@
       </div>
     </div>
     <div class="section2">
-      <p class="font-weight-bold text-center semi-bold">Recently Projects</p>
+      <p class="font-weight-bold text-center semi-bold white--text">Recently Projects</p>
+      <v-row class="pt-12">
+        <v-col class="d-flex flex-column align-center justify-center">
+          <div data-aos="fade-right" data-aos-duration="1500">
+          <v-card max-width="320px" elevation="8">
+            <img src="../assets/1.svg" alt="vitamin-air">
+          </v-card>
+          </div>
+        </v-col>
+        <v-col class="d-flex align-center">
+          <div  style="text-align: start">
+          <p class="font-weight-bold white--text" style="font-size: 30px">Blockchain as a Customer Loyalty solution</p>
+          <p class="white--text">Customer loyalty programs allow companies to reward customers who make purchases frequently or on a specified period.</p>
+          </div>
+        </v-col>
+      </v-row>
       <v-row>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <div data-aos="fade-right" data-aos-duration="1000">
-          <v-card elevation="6">
-            <v-row class="d-flex justify-center">
-              <img src="../assets/1.svg" alt="vitamin-air">
-            </v-row>
-          </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">Blockchain as a Customer Loyalty solution</p>
-          <p class="text-center">Customer loyalty programs allow companies to reward customers who make purchases frequently or on a specified period.</p>
+        <v-col class="d-flex align-center">
+          <div style="text-align: end">
+            <p class="font-weight-bold white--text" style="font-size: 30px">Crowdfunding And Vested</p>
+            <p class="white--text">Our Platform enables any startup to create an asset and accept crowdfunding secured by the Zeetomic custodian account.</p>
           </div>
         </v-col>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <div data-aos="zoom-out" data-aos-duration="1000">
-          <v-card elevation="6">
-            <v-row class="d-flex justify-center">
-              <img src="../assets/2.svg" alt="vitamin-air">
-            </v-row>
+        <v-col class="d-flex flex-column align-center justify-center">
+          <div data-aos="fade-left" data-aos-duration="1500">
+          <v-card max-width="330px" elevation="8">
+            <img src="../assets/2.svg" alt="vitamin-air">
           </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">Crowdfunding And Vested</p>
-          <p class="text-center">Our Platform enables any startup to create an asset and accept crowdfunding secured by the Zeetomic custodian account.</p>
           </div>
         </v-col>
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <div data-aos="fade-left" data-aos-duration="1000">
-          <v-card elevation="6">
-            <v-row class="d-flex justify-center">
-              <img src="../assets/3.svg" alt="vitamin-air">
-            </v-row>
+      </v-row>
+      <v-row>
+        <v-col class="d-flex flex-column align-center justify-center">
+          <div data-aos="fade-right" data-aos-duration="1500">
+          <v-card max-width="320px" elevation="8">
+            <img src="../assets/3.svg" alt="vitamin-air">
           </v-card>
-          <div style="padding-top:2rem"></div>
-          <p class="font-weight-bold text-center" style="font-size: 20px">API for Payment Solutions</p>
-          <p class="text-center">With our robust API developers can access payment ecosystems for a more dynamic transition of value.</p>
+          </div>
+        </v-col>
+        <v-col class="d-flex align-center justify-start">
+          <div style="text-align: start">
+            <p class="font-weight-bold white--text" style="font-size: 30px">API for Payment Solutions</p>
+            <p class="white--text">With our robust API developers can access payment ecosystems for a more dynamic transition of value.</p>
           </div>
         </v-col>
       </v-row>
     </div>
     <div class="section3">
       <v-carousel 
-        hide-delimiters 
         cycle
+        hide-delimiters 
         class="desktop_carousel"
       >
         <v-carousel-item>
@@ -73,9 +80,9 @@
               </v-col>
               <v-col  class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">How it work ?</div>
+                  <div class="font-weight-bold text-center white--text semi-bold">How it work ?</div>
                   <div style="padding-top:2rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer identifies themselves vai require documents. </div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer identifies themselves vai require documents. </div>
                 </div>
               </v-col>
             </v-row>
@@ -89,9 +96,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Integrate with existing POS</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Integrate with existing POS</div>
                   <div style="padding-top:2rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer pays into items through your existing POS. </div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer pays into items through your existing POS. </div>
                 </div>
               </v-col>
             </v-row>
@@ -105,9 +112,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Reward Customer autonomously</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Reward Customer autonomously</div>
                   <div style="padding-top:2rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer received the reward automatically into their account.</div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer received the reward automatically into their account.</div>
                 </div>
               </v-col>
             </v-row>
@@ -121,9 +128,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Exchange</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Exchange</div>
                   <div style="padding-top:2rem"></div>               
-                  <div class="text-center font-weight-regular regular" style="color:#444444">From the trading account, token are exchangeable with trusted parties.</div>                
+                  <div class="text-center font-weight-regular regular white--text">From the trading account, token are exchangeable with trusted parties.</div>                
                 </div>
               </v-col>
             </v-row>
@@ -144,9 +151,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">How it work ?</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">How it work ?</div>
                   <div style="padding-top:1rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer identifies themselves vai require documents. </div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer identifies themselves vai require documents. </div>
                 </div>
               </v-col>
             </v-row>
@@ -160,9 +167,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Integrate with existing POS</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Integrate with existing POS</div>
                   <div style="padding-top:1rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer pays into items through your existing POS. </div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer pays into items through your existing POS. </div>
                 </div>
               </v-col>
             </v-row>
@@ -176,9 +183,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Reward Customer autonomously</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Reward Customer autonomously</div>
                   <div style="padding-top:1rem"></div>
-                  <div class="text-center font-weight-regular regular" style="color:#444444">Your customer received the reward automatically into their account.</div>
+                  <div class="text-center font-weight-regular regular white--text">Your customer received the reward automatically into their account.</div>
                 </div>
               </v-col>
             </v-row>
@@ -192,9 +199,9 @@
               </v-col>
               <v-col class="mx-auto" align-self="center">
                 <div class="carousel_detail">
-                  <div class="font-weight-bold text-center semi-bold" style="color:#485865">Exchange</div>
+                  <div class="font-weight-bold text-center semi-bold white--text">Exchange</div>
                   <div style="padding-top:1rem"></div>               
-                  <div class="text-center font-weight-regular regular" style="color:#444444">From the trading account, token are exchangeable with trusted parties.</div>                
+                  <div class="text-center font-weight-regular regular white--text">From the trading account, token are exchangeable with trusted parties.</div>                
                 </div>
               </v-col>
             </v-row>
@@ -202,32 +209,19 @@
         </v-carousel-item>
       </v-carousel>
     </div>
-    <div class="network_nest">
-      <v-row data-aos="fade-right" data-aos-duration="3000">
-        <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" style="text-align: end">
-          <p class="font-weight-bold semi-bold" style="color:#485865">Mission</p>
-          <p class="font-weight-regular regular" style="color:#444444">Fast, simple and cost reduction for security/utility token issuing platform.</p>
-        </v-col>
-        <v-col></v-col>
-      </v-row>
-      <v-row data-aos="fade-left" data-aos-duration="3000">
-        <v-col></v-col>
-        <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
-          <p class="font-weight-bold semi-bold" style="color:#485865">Vision</p>
-          <p class="font-weight-regular regular" style="color:#444444">Zeetomic is a bridge of blockchain with a single and simple endpoint integration that empowers all classes of the business ecosystem.</p>
-        </v-col>
-      </v-row>
-    </div>
+    <Mission />
   </div> 
 </template>
 
 <script>
 import Footer from '~/components/Footer.vue';
 import Header from '~/components/Header.vue';
+import Mission from '~/components/Mission.vue';
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    Mission
   }
 }
 </script>
@@ -252,9 +246,18 @@ export default {
 }
 .section2 {
   padding: 2% 12%;
+  /* background: #004a7c; */
+  background-image: url('../assets/zee-header-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .section2 img{
-  width: 300px
+  max-width: 300px;
+  min-height: 560px;
 }
 .section2 .v-card {
   background-image: url('../assets/bg-cont.jpg');
@@ -265,14 +268,16 @@ export default {
   -o-background-size: cover;
   background-size: cover;
 }
-.section3 .v-card {
-  background-image: url('../assets/bg-cont.jpg');
+.section3 .v-card  {
+  background-image: url('../assets/zee-header-netnest.png');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border: 0px;
+  border-radius: 0px;
 }
 .carousel {
   padding: 5rem 7rem;
@@ -285,17 +290,6 @@ export default {
 }
 .carousel_detail {
   padding: 0 4rem;
-}
-.network_nest {
-  background-image: url('../assets/network-nest.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: auto;
-
-  padding: 5rem 12rem;
 }
 @media screen and (max-width: 600px) {
   .main {

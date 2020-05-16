@@ -59,7 +59,7 @@
         </v-row>
       </div>
       <div class="copyright py-2">
-        <span>Copyright © 2018 Zeetomic. All right reserved.
+        <span class="white--text">Copyright © 2018 Zeetomic. All right reserved.
           A brainchild of SmallWorld Venture</span>
       </div>
     </div>
@@ -104,13 +104,23 @@ export default {
   padding: 1rem 0!important;
 }
 .footer {
-  background: #ece7e7!important;
+  /* background: #ece7e7!important; */
+  background: #e8f1f5!important;
+  
+  /* background-image: url('../assets/wave.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 .zee_footer {
   width: 180px;
 }
 .copyright {
-  background: #cfcaca;
+  /* background: #cfcaca; */
+  background: #005691;
   text-align:center;
 }
 .my-container {

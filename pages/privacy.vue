@@ -98,7 +98,7 @@ export default {
 
 <style scoped>
 .main {
-  background-image: url('../assets/zee-header-banner-2.jpg');
+  background-image: url('../assets/bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -108,7 +108,7 @@ export default {
 }
 .my-container {
   padding: 4rem 12%;
-  text-align: justify;
+  text-align: start;
 }
 .my_typo {
   font-size: 16px;
