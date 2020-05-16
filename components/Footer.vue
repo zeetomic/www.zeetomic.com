@@ -133,7 +133,7 @@ export default {
 }
 /* Tablet */
 @media only screen and (min-width: 501px) and (max-width: 768px) {
-  .mobile {
+  .desktop {
     display: none
   } 
 }
