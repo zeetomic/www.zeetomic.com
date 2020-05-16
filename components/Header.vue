@@ -206,7 +206,7 @@ export default {
     display: none;
   }
 }
-@media screen and (min-width: 1265px) and (max-width: 1904px) {
+@media screen and (min-width: 1265px) and (max-width: 1919px) {
   .navbar {
     display: none;
   }

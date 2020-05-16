@@ -43,4 +43,14 @@
   background-size: cover;
   padding: 5rem 12rem;
 }
+@media screen and (min-width: 1265px) and (max-width: 1919px) {
+  .netnest {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .netnest {
+    width: 20%;
+  }
+}
 </style>
