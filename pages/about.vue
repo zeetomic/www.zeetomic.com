@@ -189,7 +189,7 @@ export default {
   border-radius: 50%!important;
 }
 .card-img {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2)!important;
 }
 @media screen and (max-width: 600px) {
   .network_nest {
