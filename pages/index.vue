@@ -276,8 +276,8 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border: 0px;
-  border-radius: 0px;
+  border: 0px!important;
+  border-radius: 0px!important;
 }
 .carousel {
   padding: 5rem 7rem;
