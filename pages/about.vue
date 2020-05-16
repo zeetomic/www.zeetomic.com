@@ -172,7 +172,6 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100vh;
 }
 .our_team {
   padding: 2.5rem 12rem;
@@ -229,8 +228,5 @@ export default {
   .our_team {
     padding: 2.5rem 2rem;
   }
-}
-@media screen and (min-width: 1265px) and (max-width: 1904px) {
-  
 }
 </style>

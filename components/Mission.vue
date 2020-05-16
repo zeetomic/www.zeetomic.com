@@ -19,12 +19,6 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
 .netnest {
   position: absolute;
@@ -42,7 +36,7 @@ export default {
 .network_nest {
   background-image: url('../assets/zee-header-banner.jpg');
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
