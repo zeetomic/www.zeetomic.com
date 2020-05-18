@@ -22,6 +22,7 @@ export default {
   }
   .v-application {
     font-family: 'Montserrat'!important;
+    background: #041c34!important;
   }
   .semi-bold {
     font-size: 48px;
