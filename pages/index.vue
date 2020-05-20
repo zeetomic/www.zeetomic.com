@@ -267,6 +267,7 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /* background: rgba(0, 0, 0, 0.1)!important; */
 }
 .section3 .v-card  {
   background-image: url('../assets/zee-header-netnest.png');

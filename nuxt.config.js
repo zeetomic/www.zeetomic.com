@@ -43,6 +43,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-i18n', {
+      seo: false
+    }
   ],
   /*
   ** vuetify module configuration

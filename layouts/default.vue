@@ -8,6 +8,9 @@
 <script>
 import Footer from '~/components/Footer.vue';
 export default {
+  head () {
+    return this.$nuxtI18nSeo()
+  },
   components: {
     Footer
   }
@@ -34,7 +37,6 @@ export default {
     .section1 {
       padding: 1rem 3rem!important;
     }
-    
     .semi-bold {
       font-size: 24px!important;
     }
