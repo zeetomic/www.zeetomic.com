@@ -27,6 +27,9 @@ export default {
   */
   css: [
   ],
+  router: {
+    middleware: ['mobile']
+  },
   /*
   ** Plugins to load before mounting the App
   */
@@ -43,9 +46,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-i18n', {
-      seo: false
-    }
+    
   ],
   /*
   ** vuetify module configuration
