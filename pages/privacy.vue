@@ -1,8 +1,7 @@
 <template>
   <div class="main">
-    <Header />
     <div class="my-container">
-      <p class="font-weight-bold grey--text semi-bold">Privacy Policy</p>
+      <p class="display-2 grey--text">Privacy Policy</p>
       <div class="my_typo">
         <span>LAST UPDATE: MAY 06, 2020</span>
         <p>This privacy policy aims to give information on how ZEETOMIC collects and processes your personal data when you use the Zeetomic Wallet and related services (Services) or use the ZEETOMIC Wallet website (www.zeetomic.com). Our website and Services are not intended for children and we do not knowingly collect data relating to children.</p>
@@ -86,13 +85,8 @@
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue';
-import Header from '~/components/Header.vue';
 export default {
-  components: {
-    Header,
-    Footer
-  }
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
 }
 </script>
 
@@ -107,12 +101,11 @@ export default {
   background-size: cover;
 }
 .my-container {
-  padding: 4rem 12%;
+  padding: 6rem 12%;
   text-align: start;
 }
 .my_typo {
   font-size: 16px;
-  color: #fff;
 }
 .title_typo {
   font-size: 26px;

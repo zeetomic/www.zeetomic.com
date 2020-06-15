@@ -4,7 +4,6 @@ export default {
   ** Headers of the page
   */
   head: {
-    // titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -12,8 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat&display=swap' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*
@@ -32,7 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: "~/plugins/aos", ssr: false }
+    {src: "~/plugins/aos.js", ssr: false}
   ],
   /*
   ** Nuxt.js dev-modules
@@ -44,16 +42,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    
   ],
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
   */
   vuetify: {
+    treeShake: true,
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: {
+      icons: 'fa'
+    },
     theme: {
-      dark: false,
+      dark: true,
     }
   },
   /*

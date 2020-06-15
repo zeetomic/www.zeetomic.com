@@ -1,7 +1,7 @@
 {
-  "name": "Zeetomic",
+  "name": "zeetomic",
   "version": "1.0.0",
-  "description": "The Platform for the Issuance and Management of Digital Asset",
+  "description": "zeetomic website",
   "author": "Piset Heang",
   "private": true,
   "scripts": {
@@ -11,9 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "less": "^3.10.3",
-    "less-loader": "^5.0.0",
+    "aos": "^2.3.4",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {

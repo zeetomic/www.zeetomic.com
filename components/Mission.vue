@@ -2,8 +2,8 @@
   <div class="network_nest">
     <v-row data-aos="fade-right" data-aos-duration="3000"> 
       <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6" style="text-align: end">
-        <p class="font-weight-bold semi-bold white--text" style="color:#485865">Mission</p>
-        <p class="font-weight-regular white--text" style="font-size:18px; color:#444444">Fast, simple and cost reduction for security/utility token issuing platform.</p>
+        <p class="font-weight-bold display-2">Mission</p>
+        <p class="font-weight-regular subtitle-1" style="font-size:18px">Fast, simple and cost reduction for security/utility token issuing platform.</p>
       </v-col>
     </v-row>
     <v-row class="d-flex align-center justify-center">
@@ -12,8 +12,8 @@
     <v-row data-aos="fade-left" data-aos-duration="3000">
       <v-col></v-col>
       <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
-        <p class="font-weight-bold semi-bold white--text" style="color:#485865">Vision</p>
-        <p class="font-weight-regular regular white--text" style="color:#444444">Zeetomic is a bridge of blockchain with a single and simple endpoint integration that empowers all classes of the business ecosystem.</p>
+        <p class="font-weight-bold display-2">Vision</p>
+        <p class="font-weight-regular subtitle-1">Zeetomic is a bridge of blockchain with a single and simple endpoint integration that empowers all classes of the business ecosystem.</p>
       </v-col>
     </v-row>
   </div>

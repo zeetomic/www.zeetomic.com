@@ -1,8 +1,7 @@
 <template>
   <div class="main">
-    <Header />
     <div class="my-container">
-      <p class="font-weight-bold grey--text semi-bold">Wallet Term Of Use</p>
+      <p class="display-2 grey--text">Wallet Term Of Use</p>
       <div class="my_typo">
         <span>LAST UPDATE: MAY 07, 2020</span>
         <p>This is a binding Agreement between Zeetomic and the person, persons, or entity (“You” or “Your”) using the website (“Website”) or service, Software, or application (“Software”).</p>
@@ -55,13 +54,8 @@
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue';
-import Header from '~/components/Header.vue';
 export default {
-  components: {
-    Header,
-    Footer
-  }
+  layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
 }
 </script>
 
@@ -76,12 +70,11 @@ export default {
   background-size: cover;
 }
 .my-container {
-  padding: 5rem 12%;
+  padding: 6rem 12%;
   text-align: start;
 }
 .my_typo {
   font-size: 16px;
-  color: #fff;
 }
 .title_typo {
   font-size: 26px;
