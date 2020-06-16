@@ -7,7 +7,7 @@
       </v-col>
     </v-row>
     <v-row class="d-flex align-center justify-center">
-      <img src="~/assets/netnest.png" class="netnest">
+      <img src="~/assets/netnest.png" alt="netnest" class="netnest">
     </v-row>
     <v-row data-aos="fade-left" data-aos-duration="3000">
       <v-col></v-col>
