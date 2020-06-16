@@ -55,7 +55,7 @@
       </v-row>
     </div>
     <div class="copyright py-2">
-      <span class="white--text">Copyright © 2018 Zeetomic. All right reserved.
+      <span class="white--text">Copyright © 2020 Zeetomic. All right reserved.
         A brainchild of SmallWorld Venture</span>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div class="d-flex justify-center align-center" style="padding: 2rem 0">
       <img class="zee_footer" src="~/assets/zeetomic-logo-footer.png" alt="zee_footer">
     </div>
-    <p class="text-center grey--text">Copyright © 2018 Zeetomic. All right reserved.
+    <p class="text-center grey--text">Copyright © 2020 Zeetomic. All right reserved.
       A brainchild of SmallWorld Venture</p>
     <div style="padding-top: 1rem"></div>
     <v-row>
