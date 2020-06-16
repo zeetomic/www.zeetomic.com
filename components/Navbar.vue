@@ -23,7 +23,7 @@
       <v-icon>fas fa-bars</v-icon>
     </v-btn>
     <v-row justify="center" align="center">
-      <img class="zee-header" src="../assets/zeetomic-logo-header.png" alt="zee_header">
+      <img class="zee-header" src="../assets/zeetomic-logo-header.png" alt="Zeetomic">
     </v-row>
   </v-row>
 </div>
