@@ -56,6 +56,11 @@
 <script>
 export default {
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+  head () {
+    return {
+      title: 'Term Of Use',
+    }
+  },
 }
 </script>
 

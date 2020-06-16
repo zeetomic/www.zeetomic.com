@@ -20,6 +20,11 @@
 <script>
 export default {
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+  head () {
+    return {
+      title: 'Successfully Verified',
+    }
+  },
 }
 </script>
 

@@ -91,6 +91,11 @@
 export default {
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
   inject: ['theme'],
+  head () {
+    return {
+      title: 'Blog',
+    }
+  },
 }
 </script>
 

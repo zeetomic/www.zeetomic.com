@@ -102,6 +102,11 @@ import Mission from '~/components/Mission.vue';
 
 export default {
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
+  head () {
+    return {
+      title: 'Zeetomic',
+    }
+  },
   components: {
     Mission
   },
