@@ -24,7 +24,7 @@
         <v-hover v-slot:default="{ hover }">
           <v-card :elevation="hover ? 10 : 2" class="px-6 pt-4 card-img">
             <v-row justify="center">
-              <img src="../assets/bro-3.jpg">
+              <img src="../assets/bro-3.jpg" alt="saing_sab">
             </v-row>
             <div class="text-center py-2">
               <span class="font-weight-bold grey--text" style="font-size:20px">Saing Sab</span>
@@ -37,7 +37,7 @@
         <v-hover v-slot:default={hover}>
           <v-card :elevation="hover ? 10 : 2" class="px-6 pt-4 card-img">
             <v-row justify="center">
-              <img src="../assets/bro-2.jpg">
+              <img src="../assets/bro-2.jpg" alt="thul_rithy">
             </v-row>
             <div class="text-center py-2">
               <span class="font-weight-bold grey--text" style="font-size:20px">Thul Rithy</span>
@@ -50,7 +50,7 @@
         <v-hover v-slot:default={hover}>
           <v-card :elevation="hover ? 10 : 2" class="px-6 pt-4 card-img">
             <v-row justify="center">
-              <img src="../assets/bro-4.jpg">
+              <img src="../assets/bro-4.jpg" alt="sokhomoliyuth_tea">
             </v-row>
             <div class="text-center py-2">
               <span class="font-weight-bold grey--text" style="font-size:20px">Sokhomoliyuth Tea</span>
@@ -63,7 +63,7 @@
         <v-hover v-slot:default={hover}>
           <v-card :elevation="hover ? 10 : 2" class="px-6 pt-4 card-img">
             <v-row justify="center">
-              <img src="../assets/bro-5.jpg">
+              <img src="../assets/bro-5.jpg" alt="daveat_corn">
             </v-row>
             <div class="text-center py-2">
               <span class="font-weight-bold grey--text" style="font-size:20px">Daveat Corn</span>
@@ -76,7 +76,7 @@
         <v-hover v-slot:default={hover}>
           <v-card :elevation="hover ? 10 : 2" class="px-6 pt-4 card-img">
             <v-row justify="center">
-              <img src="../assets/bro-6.jpg">
+              <img src="../assets/bro-6.jpg" alt="piset_heang">
             </v-row>
             <div class="text-center py-2">
               <span class="font-weight-bold grey--text" style="font-size:20px">Piset Heang</span>
