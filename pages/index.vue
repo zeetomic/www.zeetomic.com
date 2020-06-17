@@ -102,10 +102,20 @@ import Mission from '~/components/Mission.vue';
 
 export default {
   layout: ({ isMobile }) => isMobile ? 'mobile' : 'default',
-  head () {
-    return {
-      title: 'Zeetomic',
-    }
+  head: {
+    title: 'Zeetomic',
+    meta: [
+      { hid: 'description', name: 'description', content: 'The Platform for the Issuance and Management of Digital Asset' }
+    ],
+    noscript: [
+      { innerHTML: 'Body No Scripts', body: true }
+    ],
+    script: [
+      { src: '/about.js' },
+      { src: '/privacy.js'},
+      { src: '/termofuse.js' },
+      { src: '/blog.js' },
+    ]
   },
   components: {
     Mission
