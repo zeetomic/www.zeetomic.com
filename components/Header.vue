@@ -6,7 +6,7 @@
     class="header"
   >
     <v-btn color="transparent" text nuxt to="/">
-      <v-img :src="zee_header" max-width="170px"></v-img>
+      <v-img :src="zeetomic" max-width="170px"></v-img>
     </v-btn>
     <v-spacer></v-spacer>
     <v-menu
@@ -68,7 +68,7 @@ export default {
     return {
       menu: false,
 
-      zee_header: require('~/assets/zeetomic-logo-header.png'),
+      zeetomic: require('~/assets/zeetomic-logo-header.png'),
       z_logo: require('~/assets/z-logo-copy.png')
     }
   }
